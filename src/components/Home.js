@@ -16,13 +16,11 @@ class Home extends React.Component {
             <div className="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">
 
 
-
-
               {!this.props.isLoggedIn ? (
                 <div>
-                  <h2>Login Required</h2>
+                  <h2>Home</h2>
                   <p>Please login to view your account info</p>
-                  <p><Link to="/login"><span className="glyphicon glyphicon-log-in"></span> Login</Link></p>
+                  <p><Link to="/login" className="btn btn-lg btn-primary">Login</Link></p>
                 </div>
               ) : (
 

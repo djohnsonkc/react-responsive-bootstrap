@@ -16,10 +16,11 @@ class Logout extends React.Component {
             <div className="col-xs-10 col-xs-offset-1 col-sm-4 col-sm-offset-4">
 
 
-              <h1>You have been logged out.</h1>
+              <h1>Logout</h1>
 
+              <p>You have been logged out successfully</p>
 
-                  <p><Link to="/login"><span className="glyphicon glyphicon-log-in"></span> Login</Link></p>
+              <p><Link to="/login"><span className="glyphicon glyphicon-log-in"></span> Login</Link></p>
 
 
             </div>

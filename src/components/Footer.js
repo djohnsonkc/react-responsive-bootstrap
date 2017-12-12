@@ -7,7 +7,7 @@ class Footer extends React.Component {
   
 		<div className="navbar navbar-default navbar-fixed-bottom">
 		    <div className="container">
-		      <p className="navbar-text">© 2017 - ROSNET</p>
+		      <p className="navbar-text">© 2017 - ME.com</p>
 
 		    </div>
 		</div>

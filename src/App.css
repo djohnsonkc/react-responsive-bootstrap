@@ -36,20 +36,46 @@
   margin-top: 10px;
   position: absolute;
   top: 5px;
+  color: #fff;
 }
 
 .view-header {
   margin-top: 55px;
 }
 
-.flexBox {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-}
 
 .center-block {  
   display: block;  
   margin-right: auto;  
   margin-left: auto;  
 }  
+
+/* navbar color */
+.navbar-default {
+  background-color: #337ab7;
+  background-image: none;
+  background-repeat: no-repeat;
+  color: #ffffff;
+ }
+
+/* hamburger icon lines */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* hamburger menu background */
+ .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-default .navbar-text {
+    color: #fff;
+}

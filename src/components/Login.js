@@ -159,7 +159,6 @@ class Login extends React.Component {
 										<div className="col-lg-12">
 											<div className="text-center">
 												<a href="" tabIndex="5" className="forgot-password">Forgot Password?</a>
-												<a href="" tabIndex="6" className="forgot-password">Already have an account?</a>
 											</div>
 										</div>
 									</div>

@@ -17,12 +17,12 @@ class NavBar extends React.Component {
 		        <span className="icon icon-bar"></span>     
 		     </button>
 		      <a href="/" className="navbar-brand"><img src="img/logo.png" className="app-icon" align="left" />
-		       <span className="app-name">StaffLinQ</span></a>
+		       <span className="app-name">MyApp</span></a>
 		    </div>
 		    <div className="collapse navbar-collapse">
 		      <ul className="nav navbar-nav navbar-right">
-		        <li><a href="/#/">HELP</a></li>
-		        <li><a href="/account#/settings">SETTINGS</a></li>
+		        <li><a href="/">HOME</a></li>
+		        <li><a href="/account">ACCOUNT</a></li>
 		      </ul>
 		    </div> 
 		  </div>

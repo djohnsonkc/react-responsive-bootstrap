@@ -53,7 +53,7 @@ class Account extends React.Component {
               {!this.props.user.isLoggedIn ? (
                 <div>
                   <p>Please login to view your account info</p>
-                  <p><Link to="/login"><span className="glyphicon glyphicon-log-in"></span> Login</Link></p>
+                  <p><Link to="/login" className="btn btn-lg btn-primary">Login</Link></p>
                 </div>
               ) : (
 
