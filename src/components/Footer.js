@@ -1,0 +1,19 @@
+import React from 'react';
+
+class Footer extends React.Component {
+
+  render() {
+    return (
+  
+		<div className="navbar navbar-default navbar-fixed-bottom">
+		    <div className="container">
+		      <p className="navbar-text">© 2017 - ROSNET</p>
+
+		    </div>
+		</div>
+
+    );
+  }
+}
+
+export default Footer;
